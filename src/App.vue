@@ -3,68 +3,32 @@
     <v-navigation-drawer
       v-model="drawer"
       app
+      class="navigation-components"
     >
-      <v-list dense>
-        <router-link to="/">
-          <v-list-item link>
-            <v-list-item-action>
-              <v-icon>mdi-home</v-icon>
-            </v-list-item-action>
-            <v-list-item-content>
-              <v-list-item-title>Home</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </router-link>
-
-        <router-link to="/services">
-          <v-list-item link>
-            <v-list-item-action>
-              <v-icon>mdi-contact-mail</v-icon>
-            </v-list-item-action>
-            <v-list-item-content>
-              <v-list-item-title>Leistungen</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </router-link>
-
-        <router-link to="/credentials">
-          <v-list-item link>
-            <v-list-item-action>
-              <v-icon>mdi-contact-mail</v-icon>
-            </v-list-item-action>
-            <v-list-item-content>
-              <v-list-item-title>Referenzen</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </router-link>
-
-        <router-link to="/contact">      
-          <v-list-item link>
-            <v-list-item-action>
-              <v-icon>mdi-contact-mail</v-icon>
-            </v-list-item-action>
-            <v-list-item-content>
-              <v-list-item-title>Kontakt</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </router-link>
-      </v-list>
+      <navigation></navigation>
     </v-navigation-drawer>
 
     <v-app-bar
+      class="navigation-components"
       app
-      color="indigo"
-      dark
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title>Ludwig Breitsprecher, Softwareentwicklung</v-toolbar-title>
-    </v-app-bar>
+    </v-app-bar> 
 
-    <v-content>
-      <router-view/>
-    </v-content>
+    <div id="background-image-container">
+      <v-content class="content">
+        <v-card
+          max-width="720"
+          class="centeredPanel"
+        >      
+          <router-view/>
+        </v-card>
+      </v-content>
+    </div>
+
     <v-footer
-      color="indigo"
+      class="navigation-components"
       app
     >
       <div class="footer">
@@ -77,22 +41,62 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import Navigation from './components/Navigation.vue'
 
 export default Vue.extend({
   name: 'App',
+  components: { Navigation },
   data: () => ({
       drawer: null,
   }),
 });
 </script>
 
-<style scoped>
+<style>
+#inspire { 
+  background: url(./assets/water.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 1;
+}
+.centeredPanel {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.navigation-components {
+  /* background-color: whitesmoke !important; */
+}
 .footer {
-  margin: 0 auto 0 auto
+  margin: 0 auto 0 auto;
 }
 .footer-text {
   color: lightgray;
   padding: 0 5px 0 5px;
   font-size: 10px;  
+}
+a {
+  text-decoration: none
+}
+/* 
+  copies css of <v-list-item-subtitle>
+  used in other components
+*/
+.list-content { 
+    white-space: initial;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+    display: -webkit-box;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.2;
+    font-size: 0.875rem;
+    flex: 1 1 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.top-padding-without-list {
+  padding-top: 8px;
 }
 </style>
