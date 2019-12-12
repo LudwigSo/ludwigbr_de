@@ -25,9 +25,8 @@
       <div class="paragraph"> 
         <img class="img-right" src="./../assets/network.jpg" height="128px" width="192px"> 
         Welche Programmiersprachen ich behersche und welche anderen technischen Fähigkeiten ich besitze finden Sie unter dem Menüpunkt <router-link to="/knowledge">Kentnisse</router-link>.
-        MenüpunktMenüpunktMenüpunktMenüpunktMenüpunkt
-        MenüpunktMenüpunktMenüpunktMenüpunktMenüpunkt
       </div>
+      <div class="bottom-spacer"></div>
     </div>
   </div>
 </template>
@@ -44,7 +43,7 @@ export default {
     padding: 12px 16px 0 16px; /* same as v-list on knowledge site*/
   }
   .text .paragraph {
-    padding-bottom: 24px;
+    padding-bottom: 32px;
   }
   .top-padding {
     padding-top: 8px;
@@ -56,6 +55,9 @@ export default {
   .img-left {
     float: left;
     margin-right: 15px;
+  }
+  .bottom-spacer {
+    padding-bottom: 30px;
   }
 
 </style>

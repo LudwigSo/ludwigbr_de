@@ -1,15 +1,13 @@
 <template>
-  <v-app id="inspire">
+  <v-app id="app">
     <v-navigation-drawer
       v-model="drawer"
       app
-      class="navigation-components"
     >
       <navigation></navigation>
     </v-navigation-drawer>
 
     <v-app-bar
-      class="navigation-components"
       app
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
@@ -28,7 +26,6 @@
     </div>
 
     <v-footer
-      class="navigation-components"
       app
     >
       <div class="footer">
@@ -53,7 +50,7 @@ export default Vue.extend({
 </script>
 
 <style>
-#inspire { 
+#app { 
   background: url(./assets/water.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -61,13 +58,11 @@ export default Vue.extend({
   background-size: cover;
   opacity: 1;
 }
-.centeredPanel {
+#app .centeredPanel {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-}
-.navigation-components {
-  /* background-color: whitesmoke !important; */
+  border-radius: 0px;
 }
 .footer {
   margin: 0 auto 0 auto;
