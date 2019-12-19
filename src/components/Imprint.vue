@@ -15,6 +15,10 @@
       <p>Telefon: +4915783834588<br />
       E-Mail: info@ludwigso.de</p>
 
+      <h3>Bildquellennachweise</h3>
+      
+      <p>Dienstleistungen: Zahnräder ©J-mel/stock.adobe.com</p> 
+
       <h3>Streitschlichtung</h3>
       <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr</a>.<br /> Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
 

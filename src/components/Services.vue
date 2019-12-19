@@ -23,10 +23,9 @@
         Falls Sie sich nicht sicher sind, welche Technologie für ihren Softwarewunsch geeignet ist, <router-link to="/contact">kontaktieren </router-link>Sie mich gern.
       </div>
       <div class="paragraph"> 
-        <img class="img-right" src="./../assets/network.jpg" height="128px" width="192px"> 
+        <img class="img-right" src="./../assets/gears.jpg" height="94px" width="288px"> 
         Welche Programmiersprachen ich behersche und welche anderen technischen Fähigkeiten ich besitze finden Sie unter dem Menüpunkt <router-link to="/knowledge">Kenntnisse</router-link>.
       </div>
-      <div class="bottom-spacer"></div>
     </div>
   </div>
 </template>
@@ -56,8 +55,4 @@ export default {
     float: left;
     margin-right: 15px;
   }
-  .bottom-spacer {
-    padding-bottom: 30px;
-  }
-
 </style>
