@@ -51,7 +51,7 @@ export default Vue.extend({
 
 <style>
 #app { 
-  background: url(./assets/water.jpg) no-repeat center center fixed; 
+  background: url(./assets/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -61,8 +61,12 @@ export default Vue.extend({
 #app .centeredPanel {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
   border-radius: 0px;
+}
+@media (min-width: 720px) {
+  #app .centeredPanel {
+  margin-top: 50px;
+  }
 }
 .footer {
   margin: 0 auto 0 auto;
