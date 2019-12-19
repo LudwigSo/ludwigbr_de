@@ -24,7 +24,7 @@
       </div>
       <div class="paragraph"> 
         <img class="img-right" src="./../assets/network.jpg" height="128px" width="192px"> 
-        Welche Programmiersprachen ich behersche und welche anderen technischen Fähigkeiten ich besitze finden Sie unter dem Menüpunkt <router-link to="/knowledge">Kentnisse</router-link>.
+        Welche Programmiersprachen ich behersche und welche anderen technischen Fähigkeiten ich besitze finden Sie unter dem Menüpunkt <router-link to="/knowledge">Kenntnisse</router-link>.
       </div>
       <div class="bottom-spacer"></div>
     </div>

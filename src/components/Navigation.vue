@@ -31,7 +31,7 @@
           <v-icon>mdi-lightbulb-on</v-icon>
         </v-list-item-action>
         <v-list-item-content>
-          <v-list-item-title class="navigation-title">Kentnisse</v-list-item-title>
+          <v-list-item-title class="navigation-title">Kenntnisse</v-list-item-title>
           <v-list-item-subtitle>Technische Fähigkeiten</v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
