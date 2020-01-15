@@ -29,11 +29,15 @@ const routes = [
     component: () => import('../components/Knowledge.vue')
   },
   {
+    path: '/about',
+    name: 'about',
+    component: () => import('../components/About.vue')
+  },
+  {
     path: '/contact',
     name: 'contact',
     component: () => import('../components/Contact.vue')
-  }
-  ,
+  },
   {
     path: '/imprint',
     name: 'imprint',
