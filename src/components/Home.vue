@@ -1,17 +1,17 @@
 <template>
   <div class="home">
     <div class="top-padding-without-list"></div>
-    <v-subheader>Über mich</v-subheader>
+    <v-subheader>Willkommen</v-subheader>
     <v-divider> </v-divider>
     <div class="text">
-      <img class="img-right" src="./../assets/profilepicture.jpg" height="295px" width="192px">       
+      <img class="img-right" src="./../assets/Logo_transparent.svg" height="295px" width="192px">       
       <div class="paragraph">
         Willkommen bei Ludwig Breitsprecher, Ihrem Softwareentwickler.
-        
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
       </div>
       
     </div>
-    <contact></contact>    
+    <!-- <contact></contact>     -->
   </div>
 </template>
 

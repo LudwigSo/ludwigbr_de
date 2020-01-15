@@ -8,7 +8,7 @@
         </v-list-item-action>
         <v-list-item-content>
           <v-list-item-title class="navigation-title">Willkommen</v-list-item-title>
-          <v-list-item-subtitle>Über mich</v-list-item-subtitle>
+          <!-- <v-list-item-subtitle>Über mich</v-list-item-subtitle> -->
         </v-list-item-content>
       </v-list-item>
     </router-link>
@@ -45,6 +45,18 @@
         <v-list-item-content>
           <v-list-item-title  class="navigation-title">Referenzen</v-list-item-title>
           <v-list-item-subtitle>Abgeschlossene Projekte</v-list-item-subtitle>
+        </v-list-item-content>
+      </v-list-item>
+    </router-link>
+
+        <router-link to="/about">
+      <v-list-item link class="marginBot20">
+        <v-list-item-action>
+          <v-icon>mdi-account</v-icon>
+        </v-list-item-action>
+        <v-list-item-content>
+          <v-list-item-title  class="navigation-title">Über mich</v-list-item-title>
+          <v-list-item-subtitle>Lernen Sie mich kennen</v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
     </router-link>
