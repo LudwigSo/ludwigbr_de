@@ -17,3 +17,46 @@
     <!-- built files will be auto injected -->
   </body>
 </html>
+<!-- <style lang="css">
+html {
+  /* overflow-y: hidden; */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+html::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+</style> -->
+<style lang="css">
+html {
+  --scrollbarBG: transparent;
+  --thumbBG: #90A4AE;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+
+html {
+  height: 100%;
+  overflow: hidden;
+  
+}
+body {
+  height: 100%;
+  overflow: scroll;
+  margin: 0 auto;
+}
+</style>

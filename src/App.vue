@@ -42,7 +42,9 @@ import Navigation from './components/Navigation.vue'
 
 export default Vue.extend({
   name: 'App',
-  components: { Navigation },
+  components: { 
+    Navigation,
+    },
   data: () => ({
       drawer: null,
   }),
