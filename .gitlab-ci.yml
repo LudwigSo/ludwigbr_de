@@ -1,4 +1,6 @@
-build site:
+##https://docs.gitlab.com/ee/ci/ssh_keys/#ssh-keys-when-using-the-docker-executor
+
+build:
   image: node:14.0.0
   stage: build
   script:
@@ -8,3 +10,17 @@ build site:
     expire_in: 1 week
     paths:
       - dist
+      
+deploy:
+  image: node:14.0.0
+  stage: deploy
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - echo "$UBERSPACE_SSH_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - sudo apt install rsync
+  script:
+    - rsync -a ./dist ludwigbr@encke.uberspace.de:/home/ludwigbr/html/
+      
