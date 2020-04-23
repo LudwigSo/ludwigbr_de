@@ -2,18 +2,18 @@
 
   <div class="credentials">
     <div class="top-padding-without-list"></div>
-    <v-subheader>Abgeschlossene Projekte</v-subheader>
-    <v-divider> </v-divider>
+      <v-subheader>Abgeschlossene Projekte</v-subheader>
+      <v-divider> </v-divider>
 
-    <div class="imagesWrapper">
-    <div 
-      v-for="(src, index) in imgs"
-      :key="index"
-      class="image"
-      @click="() => showImg(index)"
-    >
-      <img width="100%" :src="src">
-    </div>
+      <div class="imagesWrapper">
+      <div 
+        v-for="(src, index) in imgs"
+        :key="index"
+        class="image"
+        @click="() => showImg(index)"
+      >
+        <img width="100%" :src="src">
+      </div>
     </div>
     <lightbox
       :visible="visible"
@@ -45,15 +45,6 @@ export default {
     }
   },
   methods: {
-    // showSingle() {
-    //   this.imgs = 'http://via.placeholder.com/350x150'
-    //   this.show()
-    // },
-    // showMultiple() {
-    //   this.imgs = ['http://via.placeholder.com/350x150', 'http://via.placeholder.com/350x150']
-    //   this.index = 1  // index of imgList
-    //   this.show()
-    // },
     showImg (index) {
         window.console.log("Test")
         this.index = index
@@ -75,6 +66,5 @@ export default {
   }
   .imagesWrapper {
     margin-top: 10px;
-    margin-bottom: 50px;
   }
 </style>

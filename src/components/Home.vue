@@ -1,17 +1,25 @@
 <template>
   <div class="home">
     <div class="top-padding-without-list"></div>
-    <v-subheader>Willkommen</v-subheader>
-    <v-divider> </v-divider>
+    <!-- <v-subheader>Willkommen</v-subheader>
+    <v-divider> </v-divider> -->
     <div class="text">
-      <img class="img-right" src="./../assets/Logo_transparent.svg" height="295px" width="192px">       
-      <div class="paragraph">
-        Willkommen bei Ludwig Breitsprecher, Ihrem Softwareentwickler.
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      <div class="row">
+        <div class="col-sm-8">
+          Ich realisiere Ihr Projekt. Mit Software!
+        </div>
+          Anwendungen
+          Auf Ihrem Computer, in hübschen Fenstern oder auf der Kommandozeile.
+
+          WebApps
+          Für jedes Gerät. Laptop, Telefon, Tablet, Uhr und Kühlschrank. Überall.*
+          *so lange ihr Gerät über einen Browser verfügt.
+        <div class="col-sm-4">
+          <img src="@/assets/logo-hell-transparent.png">       
+        </div>
       </div>
-      
     </div>
-    <!-- <contact></contact>     -->
+    <contact></contact>    
   </div>
 </template>
 
@@ -24,7 +32,7 @@ import Contact from './Contact'
   components: { Contact }
 })
 export default class Home extends Vue {
-
+  
 }
 </script>
 
@@ -35,12 +43,11 @@ export default class Home extends Vue {
   .text .paragraph {
     padding-bottom: 24px;
   }
-  .img-right {
-    float: right;
-    margin-left: 15px;
-  }
-  .img-left {
-    float: left;
-    margin-right: 15px;
+  img {
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 </style>
