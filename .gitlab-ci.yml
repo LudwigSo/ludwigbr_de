@@ -20,7 +20,7 @@ deploy:
     - echo "$UBERSPACE_SSH_KEY" | tr -d '\r' | ssh-add -
     - mkdir -p ~/.ssh
     - chmod 700 ~/.ssh
-    - sudo apt install rsync
+    - apt install rsync
   script:
     - rsync -a ./dist ludwigbr@encke.uberspace.de:/home/ludwigbr/html/
       
