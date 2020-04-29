@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <v-list three-line class="myColor-2-3">
+    <v-list three-line>
       <v-subheader>Wie Sie mich erreichen</v-subheader>
       <v-divider> </v-divider>
 
@@ -58,7 +58,4 @@ export default class Contact extends Vue {
 </script>
 
 <style scoped>
-.contact {
-  background-color: #FEE9A7 !important;
-}
 </style>

@@ -2,27 +2,31 @@
   <v-app id="app">
     <v-navigation-drawer
       v-model="drawer"
+      clipped
       app
-      class="myColor-2-3"
     >
       <navigation></navigation>
     </v-navigation-drawer>
 
     <v-app-bar
-      app
-      class="myColor-2-3"
+      app     
+      class="titlebar-color" 
+      clipped-left
     >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="myColor-2-4"/>
       <v-toolbar-title id="toolbar">
-        <div id="toolbar-text">Ludwig Breitsprecher, Softwareentwickler</div>
+        <div id="toolbar-text">Ludwig Sonnenberg, Softwareentwickler</div>
         <img id="toolbar-img" src="@/assets/logo-hell-transparent.png" height="45px">
-      </v-toolbar-title>
+      </v-toolbar-title>      
     </v-app-bar> 
+
+
+
 
     <div id="background-image-container">
       <v-content class="content">
         <v-card
-          class="centeredPanel myColor-2-3"
+          class="centeredPanel"
         >      
           <router-view/>
         </v-card>
@@ -30,8 +34,8 @@
     </div>
 
     <v-footer
-      app
-      class="myColor-2-4"
+      app      
+      class="footer-color"
     >
       <div class="footer">
         <router-link class="footer-text" to="/contact">Kontakt</router-link> 
@@ -64,12 +68,27 @@ export default Vue.extend({
 .myColor-1-4 { background-color: #ff8080; } 
 
 .myColor-2-1 { color: #ff8000; } 
-.myColor-2-2 { color: #b35a00; } 
+.myColor-2-2 { color: #d21212; } 
 /* .myColor-2-3 { background-color: #FEE9A7 !important; } */
-.myColor-2-3 { background-color: #FEF3D1 !important; }
-.myColor-2-4 { background-color: #FEE9A7 !important; }
+.myColor-2-3 { background-color: #880000 !important; }
+.myColor-2-4 { background-color: white !important; }
+/* .myColor-2-4 { background-color: #FFFFFF !important; } */
+.myColor-2-5 { background-color: #d21212 !important; }
+
+.footer-color {
+  background-color: whitesmoke !important;
+  color: white !important;
+}
+
+.titlebar-color {
+  background-color: #880000 !important;
+  color: white !important;
+}
+
 #app { 
-  background: url(./assets/background.jpg) no-repeat center center fixed; 
+  /* background: url(./assets/background.jpg) no-repeat center center fixed;  */
+  /* background-color: #f5c782; */
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -81,8 +100,8 @@ export default Vue.extend({
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 0px;
-}
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 @media (min-width: 720px) {
   #app .centeredPanel {
   margin-top: 50px;
