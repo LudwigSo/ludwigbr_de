@@ -49,7 +49,7 @@
       </v-list-item>
     </router-link>
 
-        <router-link to="/about">
+    <router-link to="/about">
       <v-list-item link class="marginBot20">
         <v-list-item-action>
           <v-icon>mdi-account</v-icon>
