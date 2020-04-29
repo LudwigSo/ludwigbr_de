@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <v-list three-line>
+    <v-list three-line class="myColor-2-3">
       <v-subheader>Wie Sie mich erreichen</v-subheader>
       <v-divider> </v-divider>
 
@@ -56,3 +56,9 @@ export default class Contact extends Vue {
   telephoneInternationalElement: string = ContactConfig.generateTelephoneElement(false);
 }
 </script>
+
+<style scoped>
+.contact {
+  background-color: #FEE9A7 !important;
+}
+</style>

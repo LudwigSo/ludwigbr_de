@@ -1,48 +1,58 @@
 <template>
-  <div class="home">
-    <div class="top-padding-without-list"></div>
-    <!-- <v-subheader>Willkommen</v-subheader>
-    <v-divider> </v-divider> -->
-    <div class="text">
-      <div class="row">
-        <div class="col-sm-8">
-          Ich realisiere Ihr Projekt. Mit Software!
-        </div>
-          Anwendungen
-          Auf Ihrem Computer, in hübschen Fenstern oder auf der Kommandozeile.
+  <div class="home"> 
+    <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
 
-          WebApps
-          Für jedes Gerät. Laptop, Telefon, Tablet, Uhr und Kühlschrank. Überall.*
-          *so lange ihr Gerät über einen Browser verfügt.
-        <div class="col-sm-4">
-          <img src="@/assets/logo-hell-transparent.png">       
-        </div>
-      </div>
+    <div class="frontpage">
+      <frontpageDesktop></frontpageDesktop>
     </div>
+
+    <div class="frontpage-mobile">
+      <frontpageMobile></frontpageMobile>
+    </div>
+        <!-- <div class="col-sm-4">
+          <img src="@/assets/logo-hell-transparent.png">       
+        </div> -->
+    <v-divider> </v-divider>
     <contact></contact>    
   </div>
+
 </template>
 
 <script>
 import Vue from 'vue'
 import { Component } from 'vue-property-decorator'
 import Contact from './Contact'
+import FrontpageDesktop from './FrontpageDesktop'
+import FrontpageMobile from './FrontpageMobile'
 
 @Component({
-  components: { Contact }
+  components: 
+  { 
+    Contact, 
+    FrontpageDesktop, 
+    FrontpageMobile 
+    }
 })
 export default class Home extends Vue {
   
 }
 </script>
-
 <style scoped>
-  .text {
-    padding: 12px 16px 0 16px; /* same as v-list on knowledge site*/
+  .frontpage {
+    display: block;
   }
-  .text .paragraph {
-    padding-bottom: 24px;
+  .frontpage-mobile {
+    display: none;
   }
+  @media (max-width: 719px) {
+    .frontpage {
+      display: none;
+    }
+    .frontpage-mobile {
+      display: block;
+    }
+  }
+ 
   img {
     width: 100%;
     object-fit: contain;

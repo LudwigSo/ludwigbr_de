@@ -39,7 +39,7 @@
         <a class="footer-text" href="https://github.com/ludwigbr" target="_blank">GitHub</a>
       </div>
     </v-footer>
-  </v-app>
+  </v-app>  
 </template>
 
 <script lang="ts">
@@ -65,8 +65,9 @@ export default Vue.extend({
 
 .myColor-2-1 { color: #ff8000; } 
 .myColor-2-2 { color: #b35a00; } 
-.myColor-2-3 { background-color: #FFFFFF !important; }
-.myColor-2-4 { background-color: #EEEEEE !important; }
+/* .myColor-2-3 { background-color: #FEE9A7 !important; } */
+.myColor-2-3 { background-color: #FEF3D1 !important; }
+.myColor-2-4 { background-color: #FEE9A7 !important; }
 #app { 
   background: url(./assets/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -74,6 +75,7 @@ export default Vue.extend({
   -o-background-size: cover;
   background-size: cover;
   opacity: 1;
+  font-family: Jura;
 }
 #app .centeredPanel {
   max-width: 720px;
