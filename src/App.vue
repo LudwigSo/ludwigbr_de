@@ -20,9 +20,6 @@
       </v-toolbar-title>      
     </v-app-bar> 
 
-
-
-
     <div id="background-image-container">
       <v-content class="content">
         <v-card
@@ -71,7 +68,7 @@ export default Vue.extend({
 .myColor-2-2 { color: #d21212; } 
 /* .myColor-2-3 { background-color: #FEE9A7 !important; } */
 .myColor-2-3 { background-color: #880000 !important; }
-.myColor-2-4 { background-color: white !important; }
+.myColor-2-4 { background-color: white !important; color:#880000 !important }
 /* .myColor-2-4 { background-color: #FFFFFF !important; } */
 .myColor-2-5 { background-color: #d21212 !important; }
 
@@ -112,7 +109,6 @@ export default Vue.extend({
   margin: 0 auto 0 auto;
 }
 .footer-text {
-  /* color: green; */
   padding: 0 5px 0 5px;
   font-size: 10px;  
 }

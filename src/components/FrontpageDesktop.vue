@@ -3,25 +3,32 @@
         <div id="Header" class="header business-card">
             <span>Ich realisiere Ihr Projekt. Mit Software.</span>
         </div>
-        <div id="WebApps" class="subheader business-card">
-            <span>WebApps</span>
-        </div>
-        <div id="Backend" class="subheader business-card">
-            <span>Backend</span>
-        </div>
-        <div id="WebAppsText" class="text business-card">
-            <span>Für jedes Gerät. <br> Laptop, Telefon, Tablet, <br> Uhr und Kühlschrank. <br> Im Browser - Überall.</span>
-        </div>
-        <div id="BackendText" class="text business-card">
-            <span>Die Logik Ihrer <br> Softwarelösung. </span>
-        </div>
+
+        <router-link to="/services">
+            <div id="web-apps-box" class="highlight-box" />
+            <div id="WebApps" class="subheader business-card">
+                <span>WebApps</span>
+            </div>
+            <div id="WebAppsText" class="text business-card">
+                <span>Für jedes Gerät. <br> Laptop, Telefon, Tablet, <br> Uhr und Kühlschrank. <br> Im Browser - Überall.</span>
+            </div>
+        </router-link>
+
+        <router-link to="/services">   
+            <div id="backend-box" class="highlight-box"></div>
+            <div id="Backend" class="subheader business-card"> 
+                <span>Backend</span>
+            </div>
+            <div id="BackendText" class="text business-card">
+                <span>Die Logik Ihrer <br> Softwarelösung. </span>
+            </div>
+        </router-link>
     </div>
 </template>
 
 <script>
 export default {
   name: 'frontpageDesktop',
-
 }
 </script>
 
@@ -49,28 +56,57 @@ export default {
     top: 80px;
     width: 621px;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 34px;
     color: rgba(179,0,0,1);
 }
+
+.highlight-box {
+    position: absolute;
+    border-radius: 5px;
+    z-index: 10;
+    background: #880000;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.highlight-box:hover {
+    opacity: 0.15;
+    transition: all 0.5s;
+}
+
+#web-apps-box {
+    left: 80px;
+    top: 175px;
+    width: 270px;
+    height: 230px;
+}
+#backend-box {
+    left: 400px;
+    top: 175px;
+    width: 215px;
+    height: 230px;
+}
+
 #Backend {
     left: 430px;
     top: 195px;
     width: 112px;
-    font-size: 30px;
+    font-size: 29px;
     color: rgba(179,0,0,1);
 }
 #WebApps {
     left: 110px;
     top: 195px;
     width: 124px;
-    font-size: 30px;
+    font-size: 29px;
     color: rgba(179,0,0,1);
 }
+
 #BackendText {
     left: 430px;
     top: 258px;
     width: 145px;
     font-size: 20px;
+    color: black;
     /* color: rgba(0,72,125,1); */
 }
 #WebAppsText {
@@ -78,6 +114,7 @@ export default {
     top: 258px;
     width: 209px;
     font-size: 20px;
+    color: black;
     /* color: rgba(0,72,125,1); */
 }
 </style>

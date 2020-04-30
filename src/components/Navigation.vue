@@ -1,20 +1,18 @@
 <template>
   <v-list>
-    <!-- <v-img id="navigation-img" src="./../assets/profilepicture.jpg" position="center"></v-img> -->
     <router-link to="/">
-      <v-list-item link class="marginBot20">
+      <v-list-item link class="marginBot20 router-link-list-item">
         <v-list-item-action>
           <v-icon>mdi-home</v-icon>
         </v-list-item-action>
         <v-list-item-content>
-          <v-list-item-title class="navigation-title">Willkommen</v-list-item-title>
-          <!-- <v-list-item-subtitle>Über mich</v-list-item-subtitle> -->
+          <v-list-item-title class="navigation-title no-subtitle">Willkommen</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </router-link>
 
-    <router-link to="/services" >
-      <v-list-item link class="marginBot20">
+    <router-link to="/services">
+      <v-list-item link class="marginBot20 router-link-list-item">
         <v-list-item-action>
           <v-icon>mdi-play-box</v-icon>
         </v-list-item-action>
@@ -26,7 +24,7 @@
     </router-link>
 
     <router-link to="/knowledge" >
-      <v-list-item link class="marginBot20">
+      <v-list-item link class="marginBot20 router-link-list-item">
         <v-list-item-action>
           <v-icon>mdi-lightbulb-on</v-icon>
         </v-list-item-action>
@@ -38,7 +36,7 @@
     </router-link>
 
     <router-link to="/credentials">
-      <v-list-item link class="marginBot20">
+      <v-list-item link class="marginBot20 router-link-list-item">
         <v-list-item-action>
           <v-icon>mdi-image</v-icon>
         </v-list-item-action>
@@ -50,7 +48,7 @@
     </router-link>
 
     <router-link to="/about">
-      <v-list-item link class="marginBot20">
+      <v-list-item link class="marginBot20 router-link-list-item">
         <v-list-item-action>
           <v-icon>mdi-account</v-icon>
         </v-list-item-action>
@@ -62,9 +60,9 @@
     </router-link>
 
     <router-link to="/contact">      
-      <v-list-item link>
+      <v-list-item link class="router-link-list-item">
         <v-list-item-action>
-          <v-icon>mdi-contact-phone</v-icon>
+          <v-icon>mdi-phone</v-icon>
         </v-list-item-action>
         <v-list-item-content>
           <v-list-item-title  class="navigation-title">Kontakt</v-list-item-title>
@@ -90,9 +88,20 @@ export default {
   width: 200px;
   height: 280px;
 } */
+
+div.router-link-list-item {
+  background: inherit;
+}
+.router-link-exact-active {
+  background: lightgray;
+}
 .navigation-title {
   line-height: 1.5rem !important;
   font-size: 1.3rem !important;
+}
+.no-subtitle {
+  padding-top: 8.4px;
+  padding-bottom: 8.4px;
 }
 .marginBot20 {
   margin-bottom: 20px;
