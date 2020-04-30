@@ -16,7 +16,7 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="myColor-2-4"/>
       <v-toolbar-title id="toolbar">
         <div id="toolbar-text">Ludwig Sonnenberg, Softwareentwickler</div>
-        <img id="toolbar-img" src="@/assets/logo-hell-transparent.png" height="45px">
+        <img id="toolbar-img" src="@/assets/logo_kreis.png" height="48px">
       </v-toolbar-title>      
     </v-app-bar> 
 

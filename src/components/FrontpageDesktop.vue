@@ -4,7 +4,7 @@
             <span>Ich realisiere Ihr Projekt. Mit Software.</span>
         </div>
 
-        <router-link to="/services">
+        <router-link to="/services#web-apps">
             <div id="web-apps-box" class="highlight-box" />
             <div id="WebApps" class="subheader business-card">
                 <span>WebApps</span>
@@ -14,7 +14,7 @@
             </div>
         </router-link>
 
-        <router-link to="/services">   
+        <router-link to="/services#backend">   
             <div id="backend-box" class="highlight-box"></div>
             <div id="Backend" class="subheader business-card"> 
                 <span>Backend</span>
