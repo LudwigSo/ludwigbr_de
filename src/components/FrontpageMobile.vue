@@ -4,20 +4,24 @@
             <div>Ich realisiere Ihr Projekt.</div>
             <div>Mit Software.</div>
         </div>
-        <div id="WebApps" class="subheader">
-            <span>WebApps</span>
-            <div class="subheader-text">
-                <span>Für jedes Gerät. <br> Laptop, Telefon, Tablet, Uhr und Kühlschrank. <br> Im Browser - Überall.</span>
-            </div>
-        </div>
-        <div id="Backend" class="subheader">
-            <span>Backend</span>
-            <div class="subheader-text">
-                <span>Die Logik Ihrer <br> Softwarelösung. </span>
-            </div>
-        </div>
 
-        
+        <router-link to="/services#web-apps">
+            <div id="WebApps" class="subheader">
+                <span>WebApps</span>
+                <div class="subheader-text">
+                    <span>Für jedes Gerät. <br> Laptop, Telefon, Tablet, Uhr und Kühlschrank. <br> Im Browser - Überall.</span>
+                </div>
+            </div>
+        </router-link>
+
+        <router-link to="/services#backend">
+            <div id="Backend" class="subheader">
+                <span>Backend</span>
+                <div class="subheader-text">
+                    <span>Die Logik Ihrer <br> Softwarelösung. </span>
+                </div>
+            </div>
+        </router-link>        
     </div>
 </template>
 

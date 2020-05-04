@@ -70,6 +70,9 @@ export default {
     if (this.$route.hash != "") {
       anchor = this.$route.hash.substring(1);
     }
+    if (anchor == "") {
+      return;
+    }
     this.scrollToId(anchor);
   }
 }

@@ -1,6 +1,7 @@
 <template>
   <v-app id="app">
     <v-navigation-drawer
+      id="navigation"
       v-model="drawer"
       clipped
       app
@@ -13,9 +14,10 @@
       class="titlebar-color" 
       clipped-left
     >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="myColor-2-4"/>
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="reverse-titlebar-color"/>
       <v-toolbar-title id="toolbar">
         <div id="toolbar-text">Ludwig Sonnenberg, Softwareentwickler</div>
+        <div id="toolbar-text-small">Ludwig Sonnenberg</div>
         <img id="toolbar-img" src="@/assets/logo_kreis.png" height="48px">
       </v-toolbar-title>      
     </v-app-bar> 
@@ -59,21 +61,8 @@ export default Vue.extend({
 </script>
 
 <style>
-.myColor-1-1 { color: #ff0000; } 
-.myColor-1-2 { color: #b30000; } 
-.myColor-1-3 { background-color: #ffbfbf; } 
-.myColor-1-4 { background-color: #ff8080; } 
-
-.myColor-2-1 { color: #ff8000; } 
-.myColor-2-2 { color: #d21212; } 
-/* .myColor-2-3 { background-color: #FEE9A7 !important; } */
-.myColor-2-3 { background-color: #880000 !important; }
-.myColor-2-4 { background-color: white !important; color:#880000 !important }
-/* .myColor-2-4 { background-color: #FFFFFF !important; } */
-.myColor-2-5 { background-color: #d21212 !important; }
-
 .footer-color {
-  background-color: whitesmoke !important;
+  background-color: lightgray !important;
   color: white !important;
 }
 
@@ -82,9 +71,18 @@ export default Vue.extend({
   color: white !important;
 }
 
+.reverse-titlebar-color {
+  background-color: white !important;
+  color: #880000 !important;
+}
+
+#navigation {
+  background-color: whitesmoke;
+  min-width: 260px;
+}
+
 #app { 
   /* background: url(./assets/background.jpg) no-repeat center center fixed;  */
-  /* background-color: #f5c782; */
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -127,25 +125,28 @@ a {
   #app #toolbar-text {
     display: none;
   }
-  #app #toolbar {
-    justify-content: end;
+}
+@media (min-width: 720px) {
+    #app #toolbar-text-small {
+    display: none;
   }
 }
+
 /* 
   copies css of <v-list-item-subtitle>
   used in other components
 */
 .list-content { 
-    white-space: initial;
-    -webkit-box-orient: vertical;
-    -webkit-box-flex: 1;
-    display: -webkit-box;
-    color: rgba(0, 0, 0, 0.6);
-    line-height: 1.2;
-    font-size: 0.875rem;
-    flex: 1 1 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  white-space: initial;
+  -webkit-box-orient: vertical;
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.2;
+  font-size: 0.875rem;
+  flex: 1 1 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .top-padding-without-list {
   padding-top: 8px;
