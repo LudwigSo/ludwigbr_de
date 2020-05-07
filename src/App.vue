@@ -96,13 +96,18 @@ export default Vue.extend({
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+  border-radius: 5px !important;
+}
 @media (min-width: 720px) {
   #app .centeredPanel {
   margin-top: 50px;
   margin-bottom: 50px;
   }
 }
+.v-sheet {
+  border-radius: 5px !important;
+}
+
 .footer {
   margin: 0 auto 0 auto;
 }
