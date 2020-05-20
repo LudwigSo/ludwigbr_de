@@ -104,7 +104,7 @@ export default Vue.extend({
   margin-bottom: 50px;
   }
 }
-.v-sheet {
+.v-sheet .v-list {
   border-radius: 5px !important;
 }
 

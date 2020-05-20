@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### CI / CD
+https://app.buddy.works/ludwigbr/ludwigbr-de
