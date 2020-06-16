@@ -3,7 +3,6 @@
     <v-list three-line>
       <v-subheader>Technische Fähigkeiten</v-subheader>
       <v-divider> </v-divider>
-
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title>Objektorientierte Programmierung</v-list-item-title>

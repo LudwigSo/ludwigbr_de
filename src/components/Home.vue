@@ -31,7 +31,7 @@ import FrontpageMobile from './FrontpageMobile'
     Contact, 
     FrontpageDesktop, 
     FrontpageMobile 
-    }
+  }
 })
 export default class Home extends Vue {
   
