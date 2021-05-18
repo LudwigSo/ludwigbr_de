@@ -55,7 +55,7 @@ export default {
     left: 50px;
     top: 80px;
     width: 621px;
-    font-weight: bold;
+    font-weight: 500; 
     font-size: 34px;
     color: rgba(179,0,0,1);
 }

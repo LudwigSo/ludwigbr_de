@@ -1,5 +1,6 @@
 <template>
   <v-app id="app">
+    <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="preload">
     <v-navigation-drawer
       id="navigation"
       v-model="drawer"

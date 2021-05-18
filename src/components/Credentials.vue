@@ -5,7 +5,7 @@
       <v-divider> </v-divider>
 
       <div class="text">
-        Nachfolgende finden Sie ein paar Bilder von abgeschlossenen Projekten.  
+        Nachfolgend finden Sie ein paar Bilder von abgeschlossenen Projekten.  
         Kleine "OpenSource" Code Beispiele finden Sie auf meinem <a href="https://github.com/ludwigbr" target="_blank">GitHub</a> Profil, falls Sie einen Ausschnitt aus einem größeren Projekt sehen möchten <router-link to="contact">melden</router-link> Sie sich gern bei mir. 
       </div>
 

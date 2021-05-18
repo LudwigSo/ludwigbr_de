@@ -1,7 +1,5 @@
 <template>
   <div class="home"> 
-    <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
-
     <div class="frontpage">
       <frontpageDesktop></frontpageDesktop>
     </div>
@@ -9,9 +7,6 @@
     <div class="frontpage-mobile">
       <frontpageMobile></frontpageMobile>
     </div>
-        <!-- <div class="col-sm-4">
-          <img src="@/assets/logo-hell-transparent.png">       
-        </div> -->
     <v-divider> </v-divider>
     <contact></contact>    
   </div>
