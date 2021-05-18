@@ -1,6 +1,6 @@
 <template>
   <v-app id="app">
-    <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="preload">
+    <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
     <v-navigation-drawer
       id="navigation"
       v-model="drawer"
@@ -125,11 +125,15 @@ a {
 #toolbar {
   display: flex;
   overflow: hidden;
-  margin: 1em 0;
   width: 100%;
   align-items: center;
   justify-content: space-between;
 } 
+@media (max-width: 339px) {
+  #app #toolbar-text-small {
+    font-size: 16px;
+  }
+}
 @media (max-width: 719px) {
   #app #toolbar-text {
     display: none;
