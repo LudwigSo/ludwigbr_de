@@ -42,9 +42,13 @@ const routes = [
     path: '/imprint',
     name: 'imprint',
     component: () => import('../components/Imprint.vue')
+  },
+  //temporary forward to nextcloud
+  {
+    path: '/hochzeit',
+    name: 'hochzeit',
+    component: () => import('../components/Hochzeit.vue')
   }
-
-  //credentials, contact
 ]
 
 const router = new VueRouter({
