@@ -5,7 +5,7 @@
     <v-divider> </v-divider>
     <div class="text">
       <div class="link">
-      <a href="https://breitix.selfhost.eu:12346/index.php/s/c9DNQeseC82ds6S">Hier geht es zu den Hochzeitsfotos</a>
+      <a href="https://nc.breitsprecher.net:12346/index.php/s/c9DNQeseC82ds6S">Hier geht es zu den Hochzeitsfotos</a>
       </div>
       <div>
         <br><br>
