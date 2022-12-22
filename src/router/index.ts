@@ -43,6 +43,12 @@ const routes = [
     name: 'imprint',
     component: () => import('../components/Imprint.vue')
   },
+  //temporary forward to google forms
+  {
+    path: '/abi2014',
+    name: 'abi2014',
+    component: () => import('../components/Abi2014.vue')
+  },
   //temporary forward to nextcloud
   {
     path: '/hochzeit',
