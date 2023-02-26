@@ -17,11 +17,11 @@
     "vuetify": "^2.6.13"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.19",
-    "@vue/cli-plugin-eslint": "^4.5.19",
-    "@vue/cli-plugin-router": "^4.5.19",
-    "@vue/cli-plugin-typescript": "^4.5.19",
-    "@vue/cli-service": "^4.5.19",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-plugin-typescript": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-typescript": "^4.0.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.2.3",
