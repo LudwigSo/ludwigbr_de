@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <v-card class="centeredPanel">
     <div class="top-padding-without-list"></div>
     <v-subheader>Über mich</v-subheader>
     <v-divider> </v-divider>
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </v-card>
 </template>
 
 <script>

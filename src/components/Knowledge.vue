@@ -1,5 +1,5 @@
 <template>
-  <div class="knowledge">
+  <v-card class="centeredPanel knowledge">
     <v-list three-line>
       <v-subheader>Technische Fähigkeiten</v-subheader>
       <v-divider> </v-divider>
@@ -60,7 +60,7 @@
         </v-list-item-content>
       </v-list-item>
     </v-list>
-  </div>
+  </v-card>
 </template>
 
 <script>

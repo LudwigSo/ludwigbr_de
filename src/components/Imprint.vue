@@ -1,5 +1,5 @@
 <template>
-  <div class="imprint">
+  <v-card class="centeredPanel imprint">
     <div class="top-padding-without-list"></div>
     <v-subheader>Impressum</v-subheader>
     <v-divider> </v-divider>
@@ -28,7 +28,7 @@
 
       <p>Quelle: <a href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a></p>     
     </div>
-  </div>
+  </v-card>
 </template>
 
 <script>

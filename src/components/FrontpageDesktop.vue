@@ -1,5 +1,5 @@
 <template>
-    <div id="Frontpage-Desktop">
+    <v-card class="centeredPanel" id="Frontpage-Desktop">
         <div id="Header" class="header business-card">
             <span>Ich realisiere Ihr Projekt. Mit Software.</span>
         </div>
@@ -23,7 +23,7 @@
                 <span>Die Logik Ihrer <br> Softwarelösung. </span>
             </div>
         </router-link>
-    </div>
+    </v-card>
 </template>
 
 <script>

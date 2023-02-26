@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <v-card class="centeredPanel contact">
     <v-list three-line>
       <v-subheader>Wie Sie mich erreichen</v-subheader>
       <v-divider> </v-divider>
@@ -41,7 +41,7 @@
         </v-list-item-content>
       </v-list-item>
     </v-list>
-  </div>
+  </v-card>
 </template>
 
 <script lang="ts">

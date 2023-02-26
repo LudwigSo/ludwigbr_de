@@ -1,5 +1,5 @@
 <template>
-  <div class="services">
+  <v-card class="centeredPanel services">
     <div class="top-padding-without-list"></div>
     <v-subheader>Was ich Ihnen biete</v-subheader>
     <v-divider> </v-divider>
@@ -50,7 +50,7 @@
       <div class="advantage-subtitle">Moderne API Architektur. Für die reibungslose Verwendung im Frontend oder als Integration in Ihre bestehende Servicelandschaft.</div>
     </div>
     <br />
-  </div>
+  </v-card>
 </template>
 
 <script>

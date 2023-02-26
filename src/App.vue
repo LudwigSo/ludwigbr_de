@@ -25,11 +25,7 @@
 
     <div id="background-image-container">
       <v-content class="content">
-        <v-card
-          class="centeredPanel"
-        >      
           <router-view/>
-        </v-card>
       </v-content>
     </div>
 

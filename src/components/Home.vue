@@ -1,5 +1,5 @@
 <template>
-  <div class="home"> 
+  <div> 
     <div class="frontpage">
       <frontpageDesktop></frontpageDesktop>
     </div>
@@ -7,10 +7,8 @@
     <div class="frontpage-mobile">
       <frontpageMobile></frontpageMobile>
     </div>
-    <v-divider> </v-divider>
     <contact></contact>    
   </div>
-
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="credentials">
+  <v-card class="centeredPanel credentials">
     <div class="top-padding-without-list"></div>
       <v-subheader>Abgeschlossene Projekte</v-subheader>
       <v-divider> </v-divider>
@@ -24,7 +24,7 @@
       :imgs="imgs"
       @hide="handleHide"
     ></lightbox>
-  </div>
+  </v-card>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <div id="Frontpage-Mobile">
+    <v-card class="centeredPanel" id="Frontpage-Mobile">
         <div id="Header" class="header">
             <div>Ich realisiere Ihr Projekt.</div>
             <div>Mit Software.</div>
@@ -22,7 +22,7 @@
                 </div>
             </div>
         </router-link>        
-    </div>
+    </v-card>
 </template>
 
 <script>
