@@ -49,12 +49,6 @@ const routes = [
     name: 'abi2014',
     component: () => import('../components/Abi2014.vue')
   },
-  //temporary forward to nextcloud
-  {
-    path: '/hochzeit',
-    name: 'hochzeit',
-    component: () => import('../components/Hochzeit.vue')
-  }
 ]
 
 const router = new VueRouter({
