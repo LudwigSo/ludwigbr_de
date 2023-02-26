@@ -1,5 +1,5 @@
 <template>
-  <v-card class="centeredPanel imprint">
+  <v-card class="centered-panel imprint">
     <div class="top-padding-without-list"></div>
     <v-subheader>Impressum</v-subheader>
     <v-divider> </v-divider>

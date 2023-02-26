@@ -1,5 +1,5 @@
 <template>
-  <v-card class="centeredPanel services">
+  <v-card class="centered-panel services">
     <div class="top-padding-without-list"></div>
     <v-subheader>Was ich Ihnen biete</v-subheader>
     <v-divider> </v-divider>

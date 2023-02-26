@@ -88,7 +88,7 @@ export default Vue.extend({
   opacity: 1;
   font-family: Jura;
 }
-#app .centeredPanel {
+#app .centered-panel {
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
@@ -97,7 +97,7 @@ export default Vue.extend({
 
 }
 @media (min-width: 720px) {
-  #app .centeredPanel {
+  #app .centered-panel {
   margin-top: 50px;
   margin-bottom: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

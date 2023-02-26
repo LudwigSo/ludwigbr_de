@@ -1,5 +1,5 @@
 <template>
-  <v-card class="centeredPanel credentials">
+  <v-card class="centered-panel credentials">
     <div class="top-padding-without-list"></div>
       <v-subheader>Abgeschlossene Projekte</v-subheader>
       <v-divider> </v-divider>

@@ -1,5 +1,5 @@
 <template>
-  <v-card class="centeredPanel contact">
+  <v-card class="centered-panel contact">
     <v-list three-line>
       <v-subheader>Wie Sie mich erreichen</v-subheader>
       <v-divider> </v-divider>

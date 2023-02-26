@@ -1,5 +1,5 @@
 <template>
-    <v-card class="centeredPanel" id="Frontpage-Mobile">
+    <v-card class="centered-panel" id="frontpage-mobile">
         <div id="Header" class="header">
             <div>Ich realisiere Ihr Projekt.</div>
             <div>Mit Software.</div>
@@ -42,7 +42,7 @@ export default {
     position: absolute;
 }
 
-#Frontpage-Mobile {
+#frontpage-mobile {
     overflow: hidden;
     height: 500px;
     --web-scale-on-resize: true;

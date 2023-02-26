@@ -1,5 +1,5 @@
 <template>
-  <v-card class="centeredPanel knowledge">
+  <v-card class="centered-panel knowledge">
     <v-list three-line>
       <v-subheader>Technische Fähigkeiten</v-subheader>
       <v-divider> </v-divider>

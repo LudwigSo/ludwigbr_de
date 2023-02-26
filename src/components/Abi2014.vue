@@ -1,13 +1,13 @@
 <template>
   <div>
-    <v-card class="centeredPanel abi-panel mb-8">
+    <v-card class="centered-panel abi-panel mb-8">
       <div class="top-padding-without-list"></div>
       <v-subheader class="justify-space-between">
         <div>Allgemeine Umfrage, Fehlende Kontaktdaten</div>
         <div>26.02.2023</div>
       </v-subheader>
       <v-divider> </v-divider>
-      
+
       <div class="link">
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSfoADTsQJthYhTeb8P34QtSwVJjMtVw3T43LnCXkm_trn3T4g/viewform?usp=pp_url&entry.1745178045=Mai+2024&entry.1745178045=Juni+2024&entry.1745178045=Juli+2024&entry.1745178045=August+2024&entry.1745178045=September+2024&entry.1745178045=Oktober+2024&entry.1745178045=November+2024&entry.909481105=keine+Beschr%C3%A4nkung">
           Allgemeine Umfrage zum Jahrgangstreffen 
@@ -26,7 +26,7 @@
       </div>
     </v-card>
 
-    <v-card class="centeredPanel">
+    <v-card class="centered-panel">
       <div class="top-padding-without-list"></div>
       <v-subheader class="justify-space-between">
         <div>Jahrgangstreffen 2024 - 10 Jahre Abi</div>

@@ -1,5 +1,5 @@
 <template>
-    <v-card class="centeredPanel" id="Frontpage-Desktop">
+    <v-card class="centered-panel" id="frontpage-desktop">
         <div id="Header" class="header business-card">
             <span>Ich realisiere Ihr Projekt. Mit Software.</span>
         </div>
@@ -42,7 +42,7 @@ export default {
     overflow: visible;
     position: absolute;
 }
-#Frontpage-Desktop {
+#frontpage-desktop {
     /* position: absolute; */
     width: 720px;
     height: 457px;
