@@ -17,7 +17,7 @@
         <p>Liebe ehemalige Mitschüler*innen,</p>
 
         <p>wir haben viele Rückmeldungen bekommen und das Interesse an einem Jahrgangstreffen ist groß. Das Orga-Team hat seine Arbeit aufgenommen und als erstes wollen wir euch noch ein paar Fragen zum Jahrgangstreffen stellen. Wie, wann, wo das Treffen stattfindet, wollen wir nicht alleine entschieden. Deswegen haben wir eine kurze Umfrage erstellt.</p>
-        <p>Bitte gebt bis zum 10.03. eure Stimmen ab. </p>
+        <p>Bitte gebt bis zum 17.03. eure Stimmen ab. </p>
 
         <p>Folgende Personen haben noch keine Kontaktdaten hinterlegt. Wenn ihr Kontakt zu jemandem von der Liste habt, gebt den Link und diese Information bitte weiter. </p>
         <p>Pauline Bjarsch, Annika Böttcher, Konrad Braatz, Richard Federbusch, Julie Gambia, Doro H, Bendine Heise, Sophie Leschik, Yara Levermann, Jannis Machel, Fiona Merian, Charlotte Neulinger, Hans Schmidt, Paula Tiedemann, Steffen Voigt, Jakob Wandelt, Marvin Wobring, Ina Brettschneider, Deborah Gladrow, Benjamin Petsch </p>
