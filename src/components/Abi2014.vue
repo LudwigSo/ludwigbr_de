@@ -20,7 +20,7 @@
         <p>Bitte gebt bis zum 17.03. eure Stimmen ab. </p>
 
         <p>Folgende Personen haben noch keine Kontaktdaten hinterlegt. Wenn ihr Kontakt zu jemandem von der Liste habt, gebt den Link und diese Information bitte weiter. </p>
-        <p>Pauline Bjarsch, Annika Böttcher, Konrad Braatz, Richard Federbusch, Julie Gambia, Doro H, Bendine Heise, Sophie Leschik, Yara Levermann, Jannis Machel, Fiona Merian, Charlotte Neulinger, Hans Schmidt, Paula Tiedemann, Steffen Voigt, Jakob Wandelt, Marvin Wobring, Ina Brettschneider, Deborah Gladrow, Benjamin Petsch </p>
+        <p>(Liste aktualisiert am 08.03.) Pauline Bjarsch, Annika Böttcher, Konrad Braatz, Julie Gambia, Doro H, Bendine Heise, Sophie Leschik, Yara Levermann, Jannis Machel, Fiona Merian, Steffen Voigt, Jakob Wandelt, Benjamin Petsch </p>
 
         <p>Viele Grüße vom Orga-Team</p>
       </div>
